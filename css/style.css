@@ -187,8 +187,10 @@ p {
 #about-info .info-right img {
   display: block;
   margin: auto;
-  width: 70%;
-  border-radius: 50%;
+  width: 130%;
+  padding-left: 100px;
+  padding: 100px;
+  border-radius: 0;
 }
 
 #about-info .info-left {
@@ -198,13 +200,14 @@ p {
 }
 
 #testimonials {
-  height: 600px;
-  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+
+  background: url('../img/light-.jpeg') no-repeat center center/cover;
   padding-top: 100px;
+  margin-bottom: 15px;
 }
 
 #testimonials h2 {
-  color: #fff;
+  color: #333;
   text-align: center;
   padding-bottom: 40px;
 }
@@ -217,10 +220,10 @@ p {
 }
 
 #testimonials .testimonial img {
- width: 100px;
+ width: 570px;
  float: left;
  margin-right: 20px;
- border-radius: 50%;
+ border-radius: 0;
 }
 
 
