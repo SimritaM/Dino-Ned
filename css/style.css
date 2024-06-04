@@ -7,6 +7,11 @@
 html, body {
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  line-height: 1.7em;
+ 
+}
+
+main {
+  padding: 20px 60px;
 }
 
 a {
@@ -226,6 +231,38 @@ p {
  border-radius: 0;
 }
 
+.l-heading {
+  font-family: "Mulish", sans-serif;
+}
+.p {
+font-size: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f7c08a;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.list img {
+width: 350px;
+}
+
+.description {
+  padding-left: 100px;
+}
+
+.description p {
+  color: #666;
+}
 
 #main-footer {
   text-align: center;
